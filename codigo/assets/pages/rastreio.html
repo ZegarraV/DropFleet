@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="../css/rastreio.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/entrega-rapida.png"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropFleet</title>
+  </head>
+  <body>
+    <div class="search-container">
+      <div class="search">
+        <label for="searchInput">
+          <span class="material-symbols-outlined"> search </span>
+        </label>
+        <input type="text" id="searchInput" placeholder="Pesquisar" />
+      </div>
+      <select id="statusFilter">
+        <option value="">All</option>
+        <option value="Entregue">Entregue</option>
+        <option value="Aguardando liberação">Aguardando Liberação</option>
+        <option value="Em transito">Em Trânsito</option>
+        <option value="Aguardando retirada">Aguardando Retirada</option>
+        <option value="Postado">Postado</option>
+      </select>
+    </div>
+    <div class="container">
+      <ul id="rastreios"></ul>
+    </div>
+    <script src="../js/rastreio.js"></script>
+  </body>
+</html>

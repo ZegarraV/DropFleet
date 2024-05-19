@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.object {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+}
+
+.object img {
+  height: auto;
+  width: 75px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info p {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.progress-bar {
+  width: 20%;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 800px;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #4b4b4b;
+  background-color: #f7f7f7;
+}
+
+#searchInput {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.search label {
+  height: 20px;
+}
+
+select {
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: 875px;
+  top: 25px;
+}
+
+select:focus {
+  border-color: #0050c3;
+  outline: none;
+}
+
+.notify-button {
+  padding: 8px 16px;
+  background-color: #0050c3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.notify-button:hover {
+  background-color: #003da1;
+}
